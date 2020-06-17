@@ -21,6 +21,17 @@ public class PlayerMove : MonoBehaviour
         Vector2 moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         moveAmount = moveInput.normalized * speed;
 
+        // Move with mouse
+
+        Vector2 direction = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        Quaternion rotation = Quaternion.AngleAxis(angle -180 , Vector3.forward);
+        transform.rotation = rotation;
+
+    
+      
+    
+
     }
     private void FixedUpdate()
     {
