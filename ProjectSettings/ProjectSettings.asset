@@ -610,6 +610,7 @@ PlayerSettings:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled:
+    Collab: 1
     UNet: 1
   luminIcon:
     m_Name: 
@@ -623,10 +624,10 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  cloudProjectId: 
+  cloudProjectId: 04078789-5330-4e79-a8ee-b548ccd5cf05
   framebufferDepthMemorylessMode: 0
-  projectName: 
-  organizationId: 
+  projectName: A Few Flew Over The CooCoo's Nest
+  organizationId: thecanadiangameboy
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
