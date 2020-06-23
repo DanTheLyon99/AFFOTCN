@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Pathfinding;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
@@ -9,6 +10,9 @@ public class Enemy : MonoBehaviour
     private Health _health;
     private Animator _animator;
     private AudioSource _audioSource;
+    private AIDestinationSetter _destinationSetter;
+    [SerializeField] private Transform[] _waypoints;
+    
     [SerializeField]private AudioClip _hurtSound;
     
     private void Start()
