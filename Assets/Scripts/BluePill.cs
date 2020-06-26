@@ -1,19 +1,32 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class BluePill : MonoBehaviour
 {
-    public float multiplier = 1.4f; 
+    private PickUp _pickUp;
+    public float multiplier = 1.4f;
     
-    public GameObject pickupEffect;
-    
-    private void OnTriggerEnter2D(Collider2D other)
+
+
+    private void Start()
     {
-        if (other.CompareTag("Player"))
-        {
-            other.gameObject.transform.localScale *= multiplier;
-            Destroy(gameObject);
-        }
+        _pickUp = GetComponent<PickUp>();
+        _pickUp.OnPillEffectStart += OnEffectStart;
+        _pickUp.OnPillEffectEnd += OnEffectEnd;
     }
+
+    private void OnEffectStart(GameObject player)
+    {
+       player.transform.localScale *= multiplier;
+    }
+
+    private void OnEffectEnd(GameObject player)
+    {
+        player.transform.localScale = new Vector3(-1,1,1);
+        
+        
+    }
+   
 }

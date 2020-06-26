@@ -1,8 +1,6 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Player
-{
     public class Player : MonoBehaviour
     {
         private Health _health;
@@ -22,4 +20,3 @@ namespace Player
             _audioSource.PlayOneShot(hurtSound);
         }
     }
-}

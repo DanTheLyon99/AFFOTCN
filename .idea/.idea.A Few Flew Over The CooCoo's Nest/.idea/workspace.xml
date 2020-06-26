@@ -11,8 +11,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BluePill.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/OrangePill.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PickUp.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -20,8 +23,9 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/PowerUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PickUp.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BluePill.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OrangePill.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BluePill.cs" />
       </list>
     </option>
   </component>
@@ -69,7 +73,8 @@
       <updated>1592853303510</updated>
       <workItem from="1592853316946" duration="3246000" />
       <workItem from="1592907306289" duration="599000" />
-      <workItem from="1592922904067" duration="4155000" />
+      <workItem from="1592922904067" duration="4978000" />
+      <workItem from="1593098610515" duration="1884000" />
     </task>
     <servers />
   </component>

@@ -17,13 +17,13 @@ using UnityEngine;
             int layerIndex)
         { 
             _enemyPatrolStateController = animator.GetComponent<EnemyPatrolStateController>();
-           _enemyWaypoints = _enemyPatrolStateController.wayPoints;
-           _destinationSetter = animator.GetComponent<AIDestinationSetter>();
-           _aiPath = animator.GetComponent<AIPath>();
+            _enemyWaypoints = _enemyPatrolStateController.wayPoints;
+            _destinationSetter = animator.GetComponent<AIDestinationSetter>();
+            _aiPath = animator.GetComponent<AIPath>();
 
-           _aiPath.slowdownDistance = 0;
-           _aiPath.whenCloseToDestination = CloseToDestinationMode.Stop;
-           GoToNextWaypoint();
+            _aiPath.slowdownDistance = 0;
+            _aiPath.whenCloseToDestination = CloseToDestinationMode.Stop;
+            GoToNextWaypoint();
 
         }
 
@@ -39,6 +39,8 @@ using UnityEngine;
                     _currentWaypointIndex--;
                 else
                     _currentWaypointIndex++;
+               
+                GoToNextWaypoint();
             }
         }
      
@@ -52,7 +54,8 @@ using UnityEngine;
         
         private void GoToNextWaypoint()
         {
-            if ( _currentWaypointIndex >= _enemyWaypoints.Length)
+            //TODO add a wait timer when the enemy reaches the end of the waypoints
+            if ( _currentWaypointIndex >= _enemyWaypoints.Length - 1)
                 _returnToStartingWaypoint = true;
             else if (_currentWaypointIndex <= 0)
                 _returnToStartingWaypoint = false;

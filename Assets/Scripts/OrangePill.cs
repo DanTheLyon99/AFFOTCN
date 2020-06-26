@@ -5,19 +5,31 @@ using UnityEngine;
 public class OrangePill : MonoBehaviour
 {
     
-    public float multiplier = 1.4f; 
+    public float multiplier = 2f; 
     
-    public GameObject pickupEffect;
-
-    private PlayerMove move;
+    private PickUp _pickUp;
+    private PlayerMove _move;
+    private float _oldMoveSpeed;
     
-    private void OnTriggerEnter2D(Collider2D other)
+    private void Start()
     {
-        move = other.GetComponent<PlayerMove>();
-        if (other.CompareTag("Player"))
-        {
-            move.speed *= 2;
-            Destroy(gameObject);
-        }
+        _pickUp = GetComponent<PickUp>();
+        _pickUp.OnPillEffectStart += OnEffectStart;
+        _pickUp.OnPillEffectEnd += OnEffectEnd;
     }
+
+    
+
+    private void OnEffectStart(GameObject player)
+    {
+        _move = player.GetComponent<PlayerMove>();
+        _oldMoveSpeed = _move.speed;
+        _move.speed *= multiplier;
+    }
+    
+    private void OnEffectEnd(GameObject player)
+    {
+        _move.speed = _oldMoveSpeed;
+    }
+    
 }

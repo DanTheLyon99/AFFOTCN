@@ -11,10 +11,9 @@ public class Enemy : MonoBehaviour
     private Animator _animator;
     private AudioSource _audioSource;
     private AIDestinationSetter _destinationSetter;
-    [SerializeField] private Transform[] _waypoints;
-    
     [SerializeField]private AudioClip _hurtSound;
-    
+    private static readonly int TakeDamage = Animator.StringToHash("TakeDamage");
+
     private void Start()
     {
         _enemyRb = GetComponent<Rigidbody2D>();
@@ -36,8 +35,12 @@ public class Enemy : MonoBehaviour
         if(!_audioSource.isPlaying)
             _audioSource.PlayOneShot(_hurtSound);
         
-        _animator.SetTrigger("TakeDamage");
-       
+        _animator.SetBool(TakeDamage,true);
     }
-    
+
+    private void EndAnimation()
+    {
+        Debug.Log("Set bool to false");
+        _animator.SetBool(TakeDamage,false);
+    }
 }
