@@ -37,7 +37,8 @@ public class RangedWeaponController : MonoBehaviour
     {
         weapon = GetComponent<Weapon>();
         weapon.onAttack += DoShootAction;
-        weapon.onStopAttack += StopAttack;
+        if(weaponMode == WeaponMode.Automatic)
+             weapon.onStopAttack += StopAttack;
     }
 
     private void OnDisable()

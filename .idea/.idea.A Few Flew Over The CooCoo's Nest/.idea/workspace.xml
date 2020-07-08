@@ -12,11 +12,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Health.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerAttack.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BluePill.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/OrangePill.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@2.0.1/Scripts/Runtime/TMP_PackageResourceImporter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerMove.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PickUp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemySpawnerScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sanity.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -26,6 +27,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OrangePill.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BluePill.cs" />
+        <option value="$PROJECT_DIR$/Assets/EnemySpawnerScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemySpawnerScript.cs" />
       </list>
     </option>
   </component>
@@ -75,6 +78,9 @@
       <workItem from="1592907306289" duration="599000" />
       <workItem from="1592922904067" duration="4978000" />
       <workItem from="1593098610515" duration="1884000" />
+      <workItem from="1593274981339" duration="3729000" />
+      <workItem from="1593549149788" duration="4000" />
+      <workItem from="1594151285640" duration="599000" />
     </task>
     <servers />
   </component>
@@ -87,6 +93,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="576" y="178" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1593282603428">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="576" y="178" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593282603428" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1592856476018">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

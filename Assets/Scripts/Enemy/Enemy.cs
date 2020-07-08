@@ -24,9 +24,9 @@ public class Enemy : MonoBehaviour
 
     }
 
-    // Update is called once per frame
     void Update()
     {
+        //To stop the enemy from spinning around constantly when hit
         _enemyRb.angularVelocity = 0;
     }
 
@@ -34,13 +34,9 @@ public class Enemy : MonoBehaviour
     {
         if(!_audioSource.isPlaying)
             _audioSource.PlayOneShot(_hurtSound);
-        
-        _animator.SetBool(TakeDamage,true);
+
+        _animator.Play("Enemy_Hurt",0);
+       
     }
 
-    private void EndAnimation()
-    {
-        Debug.Log("Set bool to false");
-        _animator.SetBool(TakeDamage,false);
-    }
 }

@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 2229808319092726246}
   - component: {fileID: 2229808319092726247}
   - component: {fileID: 2229808319092726245}
+  - component: {fileID: 1138742906}
   m_Layer: 0
   m_Name: Enemy_Soldier_Pistol
   m_TagString: Untagged
@@ -74,7 +75,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.10819125, y: 0.00235188}
+  m_Offset: {x: 0.00289616, y: 0.00235188}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -85,7 +86,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.2755885, y: 0.41200376}
+  m_Size: {x: 0.2210427, y: 0.41200376}
   m_EdgeRadius: 0
 --- !u!82 &2229808319092726250
 AudioSource:
@@ -244,7 +245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 2
-  radius: 0.29
+  radius: 0.27
   height: 0.01
   repathRate: 0.5
   canSearch: 1
@@ -260,9 +261,9 @@ MonoBehaviour:
   targetCompatibility: {fileID: 0}
   maxAcceleration: -2.5
   rotationSpeed: 360
-  slowdownDistance: 3
-  pickNextWaypointDist: 2
-  endReachedDistance: 3
+  slowdownDistance: 0
+  pickNextWaypointDist: 0.5
+  endReachedDistance: 0.5
   alwaysDrawGizmos: 1
   slowWhenNotFacingTarget: 1
   whenCloseToDestination: 0
@@ -309,6 +310,22 @@ MonoBehaviour:
   tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   graphMask:
     value: -1
+--- !u!114 &1138742906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2229808319092726268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cfd9a69791d436aa03727794f0841ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wayPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &2229808319892882960
 GameObject:
   m_ObjectHideFlags: 0
@@ -380,7 +397,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 100
   m_Sprite: {fileID: 21300000, guid: 38008c58f6fd58d4ca9c6d90354c227d, type: 3}
-  m_Color: {r: 0.8113208, g: 0.48602706, b: 0.48602706, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

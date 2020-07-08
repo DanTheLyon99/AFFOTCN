@@ -6,7 +6,7 @@ using UnityEngine;
 
     public class EnemyPatrolState : StateMachineBehaviour
     {
-       [SerializeField] private EnemyPatrolStateController _enemyPatrolStateController;
+        private EnemyPatrolStateController _enemyPatrolStateController;
         private Transform[] _enemyWaypoints;
         private AIDestinationSetter _destinationSetter;
         private AIPath _aiPath;
@@ -44,11 +44,11 @@ using UnityEngine;
             }
         }
      
-        public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo,
-            int layerIndex)
-        {
-            
-        }
+        // public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo,
+        //     int layerIndex)
+        // {
+        //     
+        // }
 
        
         
