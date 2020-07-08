@@ -1217,6 +1217,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickUpSound: {fileID: 8300000, guid: 04aedb1c61fff804c80a962809f9dabd, type: 3}
+  clock: {fileID: 0}
   time: 3
   timerBeforeEffect: 5
 --- !u!212 &711911241
@@ -1551,6 +1552,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickUpSound: {fileID: 8300000, guid: 04aedb1c61fff804c80a962809f9dabd, type: 3}
+  clock: {fileID: 0}
   time: 5
   timerBeforeEffect: 5
 --- !u!212 &990121291
@@ -1804,7 +1806,6 @@ MonoBehaviour:
   - {fileID: 1647043615}
   - {fileID: 1588046198}
   - {fileID: 727998507}
-  waitTimeBeforeMovingAgain: 2
 --- !u!114 &1159447008 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: -1054916878194847059, guid: 3577c74ef734dc64eba1d0450e038159,
@@ -4467,6 +4468,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickUpSound: {fileID: 8300000, guid: 04aedb1c61fff804c80a962809f9dabd, type: 3}
+  clock: {fileID: 0}
   time: 60
   timerBeforeEffect: 5
 --- !u!61 &2125945740

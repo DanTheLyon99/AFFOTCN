@@ -1046,6 +1046,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4328657651284992571, guid: da1c774508fabb34d93e5f5567d1786c,
+        type: 3}
+      propertyPath: clock
+      value: 
+      objectReference: {fileID: 535313981}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da1c774508fabb34d93e5f5567d1786c, type: 3}
 --- !u!1 &837894635
@@ -1248,6 +1253,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5989662097034018192, guid: b82b98488d065704692377b25fee1761,
+        type: 3}
+      propertyPath: clock
+      value: 
+      objectReference: {fileID: 535313981}
     - target: {fileID: 5989662097034018193, guid: b82b98488d065704692377b25fee1761,
         type: 3}
       propertyPath: m_Name
@@ -3055,6 +3065,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4610479882333366065, guid: 3943cba34eece2a4c8f3d134b9be5321,
+        type: 3}
+      propertyPath: clock
+      value: 
+      objectReference: {fileID: 535313981}
     - target: {fileID: 4610479882333366066, guid: 3943cba34eece2a4c8f3d134b9be5321,
         type: 3}
       propertyPath: m_Name
@@ -3845,6 +3860,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa716e9dbd6e2eb4e9a906fc31fd20bf, type: 3}
+--- !u!1 &2108706678 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4328657651284992564, guid: da1c774508fabb34d93e5f5567d1786c,
+    type: 3}
+  m_PrefabInstance: {fileID: 736782938}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2108706684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2108706678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20e6aede73b21ac46bd1020453915ca5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _amountOfLifeGained: 10
 --- !u!1001 &2229808320211079059
 PrefabInstance:
   m_ObjectHideFlags: 0

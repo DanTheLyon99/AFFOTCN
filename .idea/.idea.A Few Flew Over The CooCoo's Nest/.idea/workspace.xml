@@ -11,6 +11,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Quit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Health.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerAttack.cs" root0="FORCE_HIGHLIGHTING" />
@@ -29,6 +30,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/BluePill.cs" />
         <option value="$PROJECT_DIR$/Assets/EnemySpawnerScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemySpawnerScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/ChangeScene.cs" />
+        <option value="$PROJECT_DIR$/Assets/Quit.cs" />
       </list>
     </option>
   </component>
@@ -39,6 +42,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30010834" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -81,6 +86,8 @@
       <workItem from="1593274981339" duration="3729000" />
       <workItem from="1593549149788" duration="4000" />
       <workItem from="1594151285640" duration="599000" />
+      <workItem from="1594179376242" duration="1395000" />
+      <workItem from="1594232226905" duration="2045000" />
     </task>
     <servers />
   </component>
@@ -93,6 +100,22 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1877" height="375" key="GridCell.Tab.0.bottom" timestamp="1594179752239">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594179752239" />
+    <state width="1877" height="375" key="GridCell.Tab.0.center" timestamp="1594179752239">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594179752239" />
+    <state width="1877" height="375" key="GridCell.Tab.0.left" timestamp="1594179752238">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594179752238" />
+    <state width="1877" height="375" key="GridCell.Tab.0.right" timestamp="1594179752239">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594179752239" />
     <state x="576" y="178" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1593282603428">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
